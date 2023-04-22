@@ -75,7 +75,7 @@ const sec2 = gsap.timeline();
 
 mobile.add("(max-width: 999px)", () => {
   sec1.from(".section-1", {
-    opacity: 0,
+    // opacity: 0,
     duration: 1,
     ease: 1,
     x: -40,
@@ -146,9 +146,9 @@ pc.add("(min-width: 100px)", () => {
     },
   });
   
-  sec2.from('.section-2', {
+//   sec2.from('.section-2', {
 
-  })
+//   })
 
   sec2.from('.work', {
     y: 100,
