@@ -130,6 +130,18 @@ hr {
     justify-content: center;
 }
 
+.section-2 {
+    /* height: 60dvh; */
+    /* margin: 2rem 0; */
+}
+.section-2 img {
+    height: 100%;
+    /* margin: 2rem 0; */
+}
+.section-2-wrapper{
+
+}
+
 /* 
 
 /////// tablet
@@ -169,4 +181,9 @@ hr {
         height: 40rem;
     }
 
+    .section-2 {
+        height: 40dvh;
+        padding: 10rem 0;
+        /* margin: 2rem 0; */
+    }
   }
