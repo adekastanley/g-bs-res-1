@@ -43,3 +43,11 @@ hero.from('.hero-text-container .tagline', {
     y: 20,
 
 })
+hero.to('.scroll-container', {
+    opacity: 0.5,
+    duration: 1.5,
+    ease: 1,
+    y: -30,
+    repeat: -1
+
+})

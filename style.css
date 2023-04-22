@@ -73,6 +73,7 @@ h1, p, span {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    position: relative;
     
 }
 .hero-text-container {
@@ -85,9 +86,19 @@ h1, p, span {
 .tagline {
     font-weight: bold;
 }
+
+.scroll-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: .6rem;
+    opacity: 0;
+    /* background-color: red; */
+}
+
 .lll {
-    width: 100%;
     background-color: red;
+    width: 100%;
 }
 
 /* 
