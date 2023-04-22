@@ -6,6 +6,7 @@
 
 main {
     padding: 0;
+    /* background-color: black; */
 }
 h1, p, span {
     color: white;

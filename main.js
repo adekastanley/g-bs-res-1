@@ -51,3 +51,24 @@ hero.to('.scroll-container', {
     repeat: -1
 
 })
+
+
+const toggler = document.querySelector('.navbar-toggler');
+let toggle = false;
+toggler.addEventListener('click', ()=> {
+    if (toggle === false){
+        gsap.to('main', {
+            opacity: 0,
+            duration: 1.5,
+            ease: 1,
+        })
+        toggle = true
+    } else if (toggle === true){
+        gsap.to('main', {
+            opacity: 1,
+            duration: 1.5,
+            ease: 1,
+        })
+        toggle = false
+    }
+})
