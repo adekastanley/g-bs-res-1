@@ -81,7 +81,7 @@ mobile.add("(max-width: 999px)", () => {
     x: -40,
     scrollTrigger: {
       trigger: ".section-1",
-      start: "top 100%",
+      start: "top bottom",
       end: "bottom bottom",
       scrub: true,
     },
