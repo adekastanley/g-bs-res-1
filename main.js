@@ -4,7 +4,7 @@ const hero = gsap.timeline()
 hero.from('.hero-section', {
     opacity: 0.5,
     ease: 1,
-    delay: 1,
+    delay: 2,
     duration: 1,
     ease: 1
 })
