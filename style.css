@@ -10,7 +10,7 @@ main {
 }
 h1, p, span {
     color: white;
-
+ 
 }
 
 hr {
@@ -84,8 +84,6 @@ hr {
     margin: 0;
     position: relative;
     text-align: center;
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-family: cursive;
     
 }
 .hero-text-container {
@@ -93,8 +91,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1px;
-    font-weight: 10;
+    font-size: 20px
 
 }
 .tagline {
